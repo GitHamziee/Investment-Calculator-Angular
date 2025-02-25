@@ -1,0 +1,90 @@
+.form-container {
+    background-color: #004643;
+    /* Dark green background */
+    padding: 30px;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    /* White text */
+}
+
+.investment-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #2C786C;
+    /* Lighter green border */
+    background-color: #006D77;
+    /* Slightly different green background */
+    color: #fff;
+    /* White text */
+    border-radius: 5px;
+}
+
+button {
+    grid-column: span 2;
+    padding: 10px 20px;
+    background-color: #2C786C;
+    /* Light green background for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a8d7d;
+}
+
+
+/* The Modal (background) */
+.modal {
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

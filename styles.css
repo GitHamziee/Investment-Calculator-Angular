@@ -1,0 +1,35 @@
+body {
+  background-color: #081c15;
+  /* Dark background for the whole page */
+  color: #ffffff;
+  /* White text color for better readability */
+  font-family: 'Arial', sans-serif;
+  /* Modern font for all text */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #4CAF50;
+  /* Lighter green color for the header text */
+}
+
+.investment-form,
+.investment-table {
+  background-color: #004643;
+  /* Consistent element background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  /* Space between form and table */
+}

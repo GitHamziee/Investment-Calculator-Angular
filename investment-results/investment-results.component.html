@@ -1,0 +1,22 @@
+<div class="investment-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>End of Year Value</th>
+                <th>Interest Earned</th>
+                <th>Total Interest</th>
+                <th>Total Invested</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let result of investmentResults">
+                <td>{{ result.year }}</td>
+                <td>{{ result.valueEndOfYear | number: '1.2-2' }}</td>
+                <td>{{ result.interest | number: '1.2-2' }}</td>
+                <td>{{ result.totalInterest | number: '1.2-2' }}</td>
+                <td>{{ result.totalAmountInvested | number: '1.2-2' }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

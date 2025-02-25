@@ -1,0 +1,5 @@
+<app-header></app-header>
+<app-investment-form (userInvData)="InvValues($event)" (showResult)="displayResults($event)"></app-investment-form>
+@if(displayResult) {
+<app-investment-results [invData]="investmentData"></app-investment-results>
+}
